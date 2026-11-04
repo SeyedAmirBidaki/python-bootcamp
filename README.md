@@ -187,20 +187,31 @@ whether you know what is on yours.
 
 ## The files
 
+This repository is the hub. It holds the roadmap, the rules, and week 0.
+Each week lives in its own repository, so that every week is a real piece of
+Git work: you branch in it, commit in it, and open a pull request against it.
+
 ```
-hub/
-  README.md            this file
-  week-0-git/          Git and GitHub from zero, with three drills
-  rules.md             the no-AI rules, in full
-week-1-foundations/    exercises, hints, starter file, notes-app project
-week-2-functions-and-oop/
-week-3-files-errors-tests/
-week-4-mini-projects/  four project briefs, pick two
-solutions/             for the mentor: reference answers and quizzes
+python-bootcamp/                  this repo: roadmap, rules, week 0
+  README.md
+  rules.md
+  week-0-git/                     Git and GitHub from zero, with three drills
 ```
 
-Start with `week-0-git/README.md`. Then read `rules.md` once, properly, before
-week 1. It is short, and the whole course depends on you actually following it.
+Then, one per week:
+
+- [bootcamp-week-1-foundations](https://github.com/SeyedAmirBidaki/bootcamp-week-1-foundations) — exercises, hints, starter file, notes-app project
+- [bootcamp-week-2-functions-and-oop](https://github.com/SeyedAmirBidaki/bootcamp-week-2-functions-and-oop) — exercises, hints, starter file, library-system project
+- [bootcamp-week-3-files-errors-tests](https://github.com/SeyedAmirBidaki/bootcamp-week-3-files-errors-tests) — exercises, hints, starter file, CSV-cleaner project
+- [bootcamp-week-4-mini-projects](https://github.com/SeyedAmirBidaki/bootcamp-week-4-mini-projects) — four project briefs, pick two
+
+There is also a private repository, `bootcamp-solutions`, holding the reference
+answers and the four quizzes. It belongs to your brother. You will not have
+access to it, and that is on purpose: the quizzes arrive when he gives them to
+you.
+
+Start with [`week-0-git/README.md`](week-0-git/README.md). Then read
+[`rules.md`](rules.md) once, properly, before week 1. It is short, and the whole course depends on you actually following it.
 
 ---
 
