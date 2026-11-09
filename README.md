@@ -1,5 +1,7 @@
 # Python bootcamp: five weeks, two tracks
 
+> **راهنمای فارسی شروع کار: [START-HERE-fa.md](START-HERE-fa.md)**
+
 This is a five-week course for someone who has just finished learning Python
 from the very beginning through classes and inheritance, and has not yet
 decided what kind of developer to be. It assumes no experience with Git, a
@@ -104,19 +106,20 @@ The full version is in [rules.md](rules.md). The four that matter most:
 
 ## How to submit work
 
-Everything lives in one Git repository. Your copy is your own, and you work on
-a branch per week:
+Each week has its own repository. You clone that week's repository, make a
+branch called `week-1` (or `week-2`, and so on), and do all of that week's work
+on it:
 
 ```
-main
-├── week-0-git        (drills)
-├── week-1            (exercises + notes app)
-├── week-2            (exercises + library system)
-├── week-3            (exercises + cleaner + tests)
-└── week-4            (two mini projects + what-i-learned.md)
+bootcamp-week-1-foundations         branch: week-1   (exercises + notes app)
+bootcamp-week-2-functions-and-oop   branch: week-2   (exercises + library system)
+bootcamp-week-3-files-errors-tests  branch: week-3   (exercises + cleaner + tests)
+bootcamp-week-4-mini-projects       branch: week-4   (two mini projects + what-i-learned.md)
 ```
 
-At the end of each week, push your branch and open a pull request into `main`.
+Week 0's drills happen in this hub repository.
+
+At the end of each week, push your branch and open a pull request into that repository's `main`.
 The pull request description is three lines: what it does, what it does not do
 yet, and what was hardest. Your brother reviews it there, and the review is a
 conversation in the comments rather than a verdict.
