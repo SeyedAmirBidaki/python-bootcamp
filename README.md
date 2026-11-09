@@ -1,6 +1,8 @@
 # Python bootcamp: five weeks, two tracks
 
 > **راهنمای فارسی شروع کار: [START-HERE-fa.md](START-HERE-fa.md)**
+>
+> **راهنمای فارسی Cursor: [CURSOR-GUIDE-fa.md](CURSOR-GUIDE-fa.md)**
 
 This is a five-week course for someone who has just finished learning Python
 from the very beginning through classes and inheritance, and has not yet
